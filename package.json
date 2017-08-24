@@ -1,0 +1,33 @@
+{
+  "name": "upgraded-octo-fiesta",
+  "version": "1.0.0",
+  "description": "Check if sentence relates to cooking or programming",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "dev": "nodemon ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georoot/upgraded-octo-fiesta.git"
+  },
+  "keywords": [],
+  "author": "Rahul Bhola <rahulbhola@gmx.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georoot/upgraded-octo-fiesta/issues"
+  },
+  "homepage": "https://github.com/georoot/upgraded-octo-fiesta#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chalk": "^2.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "natural": "^0.5.4",
+    "pug": "^2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
