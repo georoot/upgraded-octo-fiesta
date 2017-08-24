@@ -6,8 +6,9 @@ const chalk   = require('chalk');
 const natural = require('natural');
 
 // Load environment variables here
-var http_port = process.env.http_port;
-http_port = parseInt(http_port,10);
+//var http_port = process.env.http_port;
+//http_port = parseInt(http_port,10);
+var http_port=8080;
 
 // Init express app
 var app = express();
